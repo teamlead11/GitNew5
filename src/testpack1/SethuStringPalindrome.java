@@ -2,7 +2,7 @@ package testpack1;
 
 import java.util.Scanner;
 
-public class StringPalindrome {
+public class SethuStringPalindrome {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,14 +15,12 @@ public class StringPalindrome {
 		for(int i= length - 1;i>=0;i--)
 		{
 			reverse = reverse + original.charAt(i);
-			if(original.equals(reverse)){
+		}if(original.equals(reverse)){
 				System.out.println("Entered string is a palindrome");
 			}else {
 				System.out.println("Entered string is not a palindrome");
 			}
 			
-	}
-
 	}
 
 }
