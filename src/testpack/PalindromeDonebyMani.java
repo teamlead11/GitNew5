@@ -1,6 +1,6 @@
 package testpack;
 
-public class PalindromeMani {
+public class PalindromeDonebyMani {
 
 	public static void main(String[] args) {
 		
