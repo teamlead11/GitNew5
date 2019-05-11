@@ -1,6 +1,7 @@
 package testpack;
 
 public class BaseClass {
+
 	 static void bubbleSortbyManivannan(int[] arr) {
 	      int n = arr.length;
 	      int temp = 0;
@@ -16,28 +17,14 @@ public class BaseClass {
 	         }
 	      }
 	   }
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("this is my base class");
-		
-		
-		      int arr[] = { 9,8,7,6,5 };
-		      System.out.println("Array Before Bubble Sort");
+	
 
-		      for(int i = 0; i < arr.length; i++) {
-		         System.out.print(arr[i] + " ");
-		      }
-		      System.out.println();
-		      bubbleSortbyManivannan(arr);
-		      System.out.println("Array After Bubble Sort");
 
-		      for(int i = 0; i < arr.length; i++) {
-		         System.out.print(arr[i] + " ");
-		      }
-		   }
-	}
 
-public static void main(String[] args) {
 	
 	int a[]= {10,2,6,29};
 	
@@ -73,4 +60,13 @@ public static void main(String[] args) {
 
 
 
+private void method() {
+	// TODO Auto-generated method stub
+System.out.println("Resoving Confict by Manivannan");
 }
+}
+
+
+
+
+
