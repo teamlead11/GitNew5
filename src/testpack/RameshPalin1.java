@@ -1,11 +1,13 @@
-package testpack1;
+package testpack;
 
+public class RameshPalin1 
+{
 
-public class SethuStringPalindrome {
-public static class StringPalindrome {
-	public static void checkPalindrome(String s) {
+	public static void checkPalindrome(String s) 
+	{
 		String reverse=new StringBuffer(s).reverse().toString();
-		if (s.equals(reverse)) {
+		if (s.equals(reverse)) 
+		{
 			System.out.println("palindrome");
 		}
 		else {
@@ -13,10 +15,12 @@ public static class StringPalindrome {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		checkPalindrome("madam");
 		checkPalindrome("india");
 		checkPalindrome("amma");
 		
+
+	}
 }
-}}
