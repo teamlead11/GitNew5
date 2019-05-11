@@ -25,6 +25,29 @@ public class BaseClass {
 
 
 
+<<<<<<< HEAD
+	public void bubblesortKeerthana() {
+		int a[]= {7,6,4,9,1};
+		int t;
+		for(int i=0;i<4;i++)
+		{
+			for(int j=0;j<4-i;j++)
+			{
+				if(a[j]>a[j+1])
+				{
+					t=a[j+1];
+					a[j+1]=a[j];
+					a[j]=t;
+				}
+			
+			}
+		}
+		for(int k=0;k<=4;k++)
+		{
+			System.out.println(a[k]);
+		}
+	}
+=======
 	
 	int a[]= {10,2,6,29};
 	
@@ -56,6 +79,7 @@ public class BaseClass {
 		System.out.println("this is Kalaiselvan base class");
 			
 	
+>>>>>>> db546b13af8a866cdbe42b9a70c375b6c65685e3
 }
 
 
