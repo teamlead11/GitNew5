@@ -6,5 +6,14 @@ public class BaseClass {
 		// TODO Auto-generated method stub
 		System.out.println("this is my base class");
 	}
+public void bubblerSortIbraheem (){
+
+	String s= "Shahid";
+int length= s.length();
+
+System.out.println("length");
+}
+
+
 
 }
