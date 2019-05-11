@@ -22,32 +22,7 @@ public class BaseClass {
 		// TODO Auto-generated method stub
 		System.out.println("this is my base class");
 	
-
-
-
-<<<<<<< HEAD
-	public void bubblesortKeerthana() {
-		int a[]= {7,6,4,9,1};
-		int t;
-		for(int i=0;i<4;i++)
-		{
-			for(int j=0;j<4-i;j++)
-			{
-				if(a[j]>a[j+1])
-				{
-					t=a[j+1];
-					a[j+1]=a[j];
-					a[j]=t;
-				}
-			
-			}
-		}
-		for(int k=0;k<=4;k++)
-		{
-			System.out.println(a[k]);
-		}
-	}
-=======
+		
 	
 	int a[]= {10,2,6,29};
 	
@@ -80,6 +55,7 @@ public class BaseClass {
 			
 	
 >>>>>>> db546b13af8a866cdbe42b9a70c375b6c65685e3
+>>>>>>> 5cb84d5e3e1cbb80bef53d54cfa4dfef946f27c3
 }
 
 
@@ -88,6 +64,29 @@ private void method() {
 	// TODO Auto-generated method stub
 System.out.println("Resoving Confict by Manivannan");
 }
+public void bubblesortKeerthana() {
+	int a[]= {7,6,4,9,1};
+	int t;
+	for(int i=0;i<4;i++)
+	{
+		for(int j=0;j<4-i;j++)
+		{
+			if(a[j]>a[j+1])
+			{
+				t=a[j+1];
+				a[j+1]=a[j];
+				a[j]=t;
+			}
+		
+		}
+	}
+	for(int k=0;k<=4;k++)
+	{
+		System.out.println(a[k]);
+	}
+}
+
+
 }
 
 
