@@ -11,4 +11,7 @@ public class TestCase1 {
 		System.out.println(a + b);
 	}
 
+	public static void multi(int a, int b) {
+		System.out.println(a * b);
+	}
 }
