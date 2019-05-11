@@ -7,4 +7,8 @@ public class TestCase1 {
 		System.out.println("this is my  modified test case1");
 	}
 
+	public static void add(int a, int b) {
+		System.out.println(a + b);
+	}
+
 }
