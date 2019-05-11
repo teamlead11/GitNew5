@@ -1,8 +1,8 @@
 package testpack;
 
-public class Testcase3 {
+public class A {
 	public static void main(String[] args) {
-		System.out.println("test case 3");
+		System.out.println("testcase4");
 	}
 
 }
