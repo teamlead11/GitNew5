@@ -9,6 +9,9 @@ public class BaseClass {
 		String s="Shahid";
 		int length= s.length();
 		System.out.println(length);
+		
+		int size=s.indexOf(s);
+		System.out.println(s);
 	}
 	
 	
