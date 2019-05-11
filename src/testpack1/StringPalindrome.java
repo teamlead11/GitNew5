@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class StringPalindrome {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 		String original,reverse="";
 		Scanner scan=new Scanner(System.in);
 		original=scan.nextLine();
