@@ -3,10 +3,15 @@ package testpack;
 import java.util.Scanner;
 
 public class BaseClass {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("this is my base class");
+	System.out.println("this is my base class");
+	
+		public void bubbleSortIbraheem() {
+			
+			String s= "Shahid";
+			int length= s.length();
+			
+			System.out.println(length);
 
 		   int n, c, d, swap;
 		    Scanner in = new Scanner(System.in);
@@ -36,10 +41,17 @@ public class BaseClass {
 		 
 		    for (c = 0; c < n; c++)
 		      System.out.println(array[c]);
-		  }
+		 
+		
+		
+	}
+
+	
+
 	}
 	
 	
+
 	
 
 
