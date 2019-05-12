@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+
+
+
+
 public class BaseClass 
     {
 	
@@ -19,7 +23,13 @@ public class BaseClass
 	{
 	
 		System.out.println("this is my base class");
-<<<<<<< HEAD
+
+		BaseClass ob=new BaseClass();
+		ob.bubbleSort_Ramesh();
+		
+	}
+
+
 	
 	String n="NIRESH";
 	int length= n.length();
@@ -27,16 +37,8 @@ public class BaseClass
 
 	int size=n.indexOf(n);
 	System.out.println(n);
-=======
 
-		BaseClass ob=new BaseClass();
-		ob.bubbleSort_Ramesh();
 		
-	}
-	
-	
-	
-	
 	
 	public void bubbleSort_Ramesh()
 	{
@@ -80,21 +82,45 @@ public class BaseClass
 	}
 
 	
->>>>>>> 6ac26f68f7fccd0d70cc5e258ff50fd9b6dab755
-
-	
-}
-<<<<<<< HEAD
 	public static void bubbleSortNiresh()  {
 		String n="NIRESH";
 		int length=n.length();
 		System.out.println(length);
 		
 	}
+
+
+
+public void BubblesortPalanivelrajn()
+{
+	int n, c, d, temp;
+    Scanner in = new Scanner(System.in);
+ 
+    System.out.println("Enter the Integers no:");
+    n = in.nextInt();
+ 
+    int a[] = new int[n];
+ 
+    System.out.println("Enter " + n + " Int No:");
+ 
+    for (c = 0; c < n; c++)
+      a[c] = in.nextInt();
+   
+    for (c = 0; c < ( n - 1 ); c++) {
+      for (d = 0; d < n - c - 1; d++) {
+        if (a[d] > a[d+1]) 
+        {
+        	temp       = a[d];
+          a[d]   = a[d+1];
+          a[d+1] = temp;
+        }
+      }
+    }
+ 
+    System.out.println("Result:");
+ 
+    for (c = 0; c < n; c++)
+    {
+      System.out.println(a[c]);
+    }
 }
-=======
-
-
-
-
->>>>>>> 6ac26f68f7fccd0d70cc5e258ff50fd9b6dab755
