@@ -44,7 +44,8 @@ public class BaseClass
 	{
 		
        Scanner sc=new Scanner(System.in);
-		
+
+       
 		System.out.println("enter the array length");
 		
 		int len=sc.nextInt();
@@ -124,3 +125,106 @@ public void BubblesortPalanivelrajn()
       System.out.println(a[c]);
     }
 }
+String title=driver.getTitle();
+System.out.println(title);
+String url=driver.getCurrentUrl();
+System.out.println(url);
+
+
+
+pending tasks
+twitter
+irtc
+insta
+hdfc
+
+
+
+//WebElement txtto=driver.findElement(By.className("ui-inputtext ui-widget"));
+//txtto.sendKeys("hyderabad");
+//WebElement btnfind=driver.findElement(By.xpath("//input[@value='ui-inputtext']"));
+//btnfind.click();
+WebElement btnContactUs=driver.findElement(By.xpath("//a[@href='contact.php']"));
+btnContactUs.click();
+WebElement txtname=driver.findElement(By.xpath("//input[@type='text'][1]"));
+txtname.sendKeys("sona");
+WebElement txtemail=driver.findElement(By.xpath("//input[@type='email']"));
+txtemail.sendKeys("sonam.shaik@gmail.com");
+WebElement txtphone=driver.findElement(By.xpath("//input[@name='phone']"));
+txtphone.sendKeys("8899774466");
+WebElement txtcourses=driver.findElement(By.xpath("//select[@name='courses']"));
+txtcourses.sendKeys("selenium");
+WebElement txtbranch=driver.findElement(By.xpath("//select[@name='branch']"));
+txtbranch.sendKeys("omr");
+WebElement txttime=driver.findElement(By.xpath("//select[@name='time']"));
+txttime.sendKeys("9AM");
+WebElement txtcomment=driver.findElement(By.xpath("//textarea[@name='comments']"));
+txtcomment.sendKeys("Selenium  course details and fee");
+
+
+
+
+
+
+
+
+
+
+
+
+WebElement txtname1=driver.findElement(By.xpath("//input[@name='lastname']")); 
+txtname1.sendKeys("gudia");
+WebElement txtradio=driver.findElement(By.xpath("//input[@name='id']")); 
+txtradio.sendKeys("female");
+WebElement txtradio1=driver.findElement(By.xpath("//input[@name='exp']")); 
+txtradio1.sendKeys("3");
+WebElement txtdate=driver.findElement(By.xpath("//input[@id='datepicker']")); 
+txtdate.sendKeys("may3");
+WebElement txtprofession=driver.findElement(By.xpath("//label[@class='checkboss']")); 
+txtprofession.sendKeys("Automation tester");
+WebElement txtfile=driver.findElement(By.xpath("//input[@id='photo']")); 
+txtfile.sendKeys("abc");
+WebElement txtcheckbox=driver.findElement(By.xpath("//input[@name='tool']")); 
+txtcheckbox.sendKeys("selenium webdriver");
+WebElement txtcontinents=driver.findElement(By.xpath("//select[@name='continents']")); 
+txtcontinents.sendKeys("india");
+//
+WebElement btnId=driver.findElement(By.xpath("//button[@name='submit']")); 
+btnId.sendKeys("abc");
+
+
+
+
+
+
+
+
+
+
+public void BubbleSortSonam() {
+
+        int arr[]= {2,7,9,5,2}
+        for (int i = 0; i < 5; i++) 
+            for (int j = 0; j <4-i; j++) 
+                if (arr[j] > arr[j+1]) 
+                { 
+                    // swap arr[j+1] and arr[i] 
+                    int temp = arr[j]; 
+                    arr[j] = arr[j+1]; 
+                    arr[j+1] = temp; 
+                } 
+for (int i = 0; i <5; i++) {
+	System.out.println(arr[i]);
+	
+}    
+
+
+
+
+
+
+
+
+
+
+
