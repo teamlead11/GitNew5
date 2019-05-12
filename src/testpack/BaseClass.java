@@ -98,3 +98,24 @@ public class BaseClass
 
 
 >>>>>>> 6ac26f68f7fccd0d70cc5e258ff50fd9b6dab755
+public void BubbleSortSonam() {
+	
+    int arr[]= {2,7,9,5,2}
+    for (int i = 0; i < 5; i++) 
+        for (int j = 0; j <4-i; j++) 
+            if (arr[j] > arr[j+1]) 
+            { 
+                // swap arr[j+1] and arr[i] 
+                int temp = arr[j]; 
+                arr[j] = arr[j+1]; 
+                arr[j+1] = temp; 
+            } 
+for (int i = 0; i <5; i++) {
+System.out.println(arr[i]);
+
+}    
+
+
+
+
+
