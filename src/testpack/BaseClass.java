@@ -4,13 +4,22 @@ import java.util.Scanner;
 
 public class BaseClass 
     {
+	
+	public void bubbleSortIbraheem()
+	{
+		
+		String s= "Shahid";
+		int length= s.length();
+		
+		System.out.println(length);
+		
 
+		}
 	public static void main(String[] args) 
 	{
 	
 		System.out.println("this is my base class");
-		
-		
+
 		BaseClass ob=new BaseClass();
 		ob.bubbleSort_Ramesh();
 		
@@ -58,6 +67,14 @@ public class BaseClass
 			 System.out.println(a[i]);
 		 }
 		
+
 	}
 
+	
+
+	
 }
+
+
+
+
