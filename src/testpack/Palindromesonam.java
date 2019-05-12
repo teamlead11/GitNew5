@@ -1,5 +1,9 @@
 package testpack;
 
+<<<<<<< HEAD
+public class Palindromesonam {
+
+=======
 import java.util.Scanner;
 
 public class Palindromesonam {
@@ -20,4 +24,5 @@ public static void main(String[] args) {
 		  System.out.println(str+"is not a palindrone");
 	  }
 }
+>>>>>>> 4e6d95ab6e161d28789be85c45d2ce49e5ec2030
 }

@@ -1,8 +1,29 @@
  package testpack;
 
+<<<<<<< HEAD
  import java.util.Scanner;
 public class BaseClass {
 	
+=======
+<<<<<<< HEAD
+import java.util.Scanner;
+
+=======
+<<<<<<< HEAD
+public class BaseClass {
+	
+=======
+import java.util.Scanner;
+>>>>>>> 258574c7047f555760da566821fbb6c8febf8993
+
+
+
+
+
+>>>>>>> 4e6d95ab6e161d28789be85c45d2ce49e5ec2030
+public class BaseClass 
+    {
+>>>>>>> 1ca742092d0ff897ffcffa2238ee79498578ffcd
 	
 	public void bubbleSortIbraheem()
 	{
@@ -18,14 +39,27 @@ public class BaseClass {
 	{
 	
 		System.out.println("this is my base class");
+<<<<<<< HEAD
 
 		System.out.println("Base class");
 		System.out.println("git hub");
 	
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+		System.out.println("Base class");
+		System.out.println("git hub");
+	}
+	===
+>>>>>>> 4e6d95ab6e161d28789be85c45d2ce49e5ec2030
+>>>>>>> 1ca742092d0ff897ffcffa2238ee79498578ffcd
 
 		BaseClass ob=new BaseClass();
 		ob.bubbleSort_Ramesh();
 		
+<<<<<<< HEAD
+=======
 	}
 
 
@@ -87,8 +121,59 @@ public class BaseClass {
 		int length=n.length();
 		System.out.println(length);
 		
+>>>>>>> 4e6d95ab6e161d28789be85c45d2ce49e5ec2030
+	}
+	
+	
+	
+	
+	
+	public void bubbleSort_Ramesh()
+	{
+		
+       Scanner sc=new Scanner(System.in);
+		
+		System.out.println("enter the array length");
+		
+		int len=sc.nextInt();
+		
+		int a[]=new int[len];
+		
+		for(int i=0;i<len;i++)
+		{
+			a[i]=sc.nextInt();
+		}
+		
+		
+		for(int i=0;i<len;i++)
+		{
+			for(int j=i+1;j<len;j++)
+			{
+				if(a[i]>a[j])
+				{
+					int temp=a[i];
+					a[i]=a[j];
+					a[j]=temp;
+					
+				}
+			}
+		}
+					
+	
+		System.out.println("ascending order");		
+		 for(int i=0;i<len;i++)
+		 {
+			 System.out.println(a[i]);
+		 }
+		
+
 	}
 
+	
+
+<<<<<<< HEAD
+	
+=======
 
 
 public void BubblesortPalanivelrajn()
@@ -282,11 +367,3 @@ public void Eveninduja() {
 			System.out.println(c);
 		}
 	}
-
-
-
-
-
-
-
-
