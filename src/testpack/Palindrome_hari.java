@@ -2,7 +2,7 @@ package testpack;
 
 import java.util.Scanner;
 
-public class HariPalindrome {
+public class Palindrome_hari {
 	public static void main(String args[]) {
 		String original, reverse = "";
 		Scanner in = new Scanner(System.in);
