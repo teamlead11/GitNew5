@@ -1,18 +1,8 @@
  package testpack;
 
-<<<<<<< HEAD
+ import java.util.Scanner;
 public class BaseClass {
 	
-=======
-import java.util.Scanner;
->>>>>>> 258574c7047f555760da566821fbb6c8febf8993
-
-
-
-
-
-public class BaseClass 
-    {
 	
 	public void bubbleSortIbraheem()
 	{
@@ -28,11 +18,10 @@ public class BaseClass
 	{
 	
 		System.out.println("this is my base class");
-<<<<<<< HEAD
+
 		System.out.println("Base class");
 		System.out.println("git hub");
-	}
-	===
+	
 
 		BaseClass ob=new BaseClass();
 		ob.bubbleSort_Ramesh();
@@ -227,9 +216,7 @@ for (int i = 0; i <5; i++) {
 	System.out.println(arr[i]);
 	
 }    
-
-====================================================
-package testpackage;
+  package testpackage;
 
 import java.util.Scanner;
 
@@ -264,7 +251,6 @@ public void class bubblesortSethu {
 		    for (c = 0; c < n; c++)
 		      System.out.println(array[c]);
 		  
->>>>>>> 258574c7047f555760da566821fbb6c8febf8993
 	}
 	public void bubblesortinduja() {
 		int a[]= {4,9,5,9,1};
@@ -285,9 +271,17 @@ public void class bubblesortSethu {
 		{
 			System.out.println(a[k]);
 		}
-====
+
 }
 
+public void Eveninduja() {
+	int a=10;
+	int b=20;
+	int c=a+b;
+		if(c%2 ==0) {
+			System.out.println(c);
+		}
+	}
 
 
 
