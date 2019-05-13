@@ -1,6 +1,11 @@
  package testpack;
 
+<<<<<<< HEAD
+public class BaseClass {
+	
+=======
 import java.util.Scanner;
+>>>>>>> 258574c7047f555760da566821fbb6c8febf8993
 
 
 
@@ -23,6 +28,11 @@ public class BaseClass
 	{
 	
 		System.out.println("this is my base class");
+<<<<<<< HEAD
+		System.out.println("Base class");
+		System.out.println("git hub");
+	}
+	===
 
 		BaseClass ob=new BaseClass();
 		ob.bubbleSort_Ramesh();
@@ -254,8 +264,28 @@ public void class bubblesortSethu {
 		    for (c = 0; c < n; c++)
 		      System.out.println(array[c]);
 		  
+>>>>>>> 258574c7047f555760da566821fbb6c8febf8993
 	}
-
+	public void bubblesortinduja() {
+		int a[]= {4,9,5,9,1};
+		int t;
+		for(int i=0;i<4;i++)
+		{
+			for(int j=0;j<4-i;j++)
+			{
+				if(a[j]>a[j+1])
+				{
+					t=a[i];
+					a[j]=a[i];
+					a[i]=t;
+				}
+			}
+		}
+		for(int k=0;k<4;k++)
+		{
+			System.out.println(a[k]);
+		}
+====
 }
 
 
