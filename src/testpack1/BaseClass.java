@@ -1,4 +1,4 @@
-package testpack;
+package testpack1;
 
 public class BaseClass {
 	public void bubbleshortaparna() {
@@ -10,7 +10,6 @@ public class BaseClass {
 			for(int j=0;j<=4;j++) {
 			
 				if(a[j]>a[j+1]) {
-					int i;
 					t=a[i];
 					a[j]=a[t];
 					a[i]=t;
@@ -25,11 +24,5 @@ public class BaseClass {
 			System.out.println(k);
 		}
 			}
-
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("this is my base class");
-	}
-
-}
+			
+		}	
