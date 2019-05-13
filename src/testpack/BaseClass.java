@@ -1,5 +1,9 @@
- package testpack;
+package testpack;
 
+<<<<<<< HEAD
+public class BaseClass {
+	public void bubbleshortaparna() {
+=======
 <<<<<<< HEAD
  import java.util.Scanner;
 public class BaseClass {
@@ -338,20 +342,39 @@ public void class bubblesortSethu {
 		  
 	}
 	public void bubblesortinduja() {
+>>>>>>> e22c57f8598e6ef8eabfe9b2d119110a0e45f0f3
 		int a[]= {4,9,5,9,1};
 		int t;
-		for(int i=0;i<4;i++)
+		for (int i=0;i<4;i++);
 		{
-			for(int j=0;j<4-i;j++)
-			{
-				if(a[j]>a[j+1])
-				{
+			
+			for(int j=0;j<4;j++) {
+			
+				if(a[j]>a[j+1]) {
+					int i;
 					t=a[i];
 					a[j]=a[i];
 					a[i]=t;
+					
 				}
 			}
+			
+			
 		}
+<<<<<<< HEAD
+
+		for(int k=0;k<4;k++) {
+			System.out.println(k);
+		}
+			}
+
+
+	public static void main(String[] args) {
+		System.out.println("this is my base class");
+	}
+
+}
+=======
 		for(int k=0;k<4;k++)
 		{
 			System.out.println(a[k]);
@@ -367,3 +390,27 @@ public void Eveninduja() {
 			System.out.println(c);
 		}
 	}
+public void bubbleshortaparna()
+{
+
+	int a[]= {9,4,1,3,6};
+	int t;
+	for (int i=0;i<4;i++);
+	{
+		
+		for(int j=0;j<4;j++) {
+		
+			if(a[j]>a[j+1]) {
+				int i;
+				t=a[i];
+				a[j]=a[i];
+				a[i]=t;
+				
+			}
+		}	
+	}
+	for(int k=0;k<4;k++) {
+		System.out.println(k);
+	}
+ }
+}
