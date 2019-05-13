@@ -1,6 +1,6 @@
  package testpack;
 
-<<<<<<< HEAD
+
 import java.util.Scanner;
 
 =======
@@ -325,8 +325,8 @@ public void class bubblesortSethu {
 		    for (c = 0; c < n; c++)
 		      System.out.println(array[c]);
 		  
->>>>>>> 258574c7047f555760da566821fbb6c8febf8993
-	}
+
+	
 	public void bubblesortinduja() {
 		int a[]= {4,9,5,9,1};
 		int t;
@@ -348,16 +348,29 @@ public void class bubblesortSethu {
 		}
 ====
 >>>>>>> 4e6d95ab6e161d28789be85c45d2ce49e5ec2030
-}
 
 
 
 
-<<<<<<< HEAD
-=======
+public void bubbleSortByDeepika(){
+	
+	int a[]={3,4,-3,78,4454,6676};
+	
+	for(int i=0;i<5;i++){
+		for(int j=0;j<5,j++)
+		{
+			if(a[j]>a[j+1])
+			{
+				temp=a[i];
+				a[j]=a[i];
+				a[i]=temp;
+				
+			}
+			for(int k=0;k<5;k++){
+				System.out.println(a[k]);
+			}
+		}
+	}
 
+	
 
-
-
-
->>>>>>> 4e6d95ab6e161d28789be85c45d2ce49e5ec2030
