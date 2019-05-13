@@ -19,17 +19,10 @@ public class BaseClass
 	{
 	
 		System.out.println("this is my base class");
-
-		BaseClass ob=new BaseClass();
-		ob.bubbleSort_Ramesh();
 		
 	}
 	
-	
-	
-	
-	
-	public void bubbleSort_Ramesh()
+	public void bubbleSort_Ram()
 	{
 		
        Scanner sc=new Scanner(System.in);
