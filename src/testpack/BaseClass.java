@@ -1,38 +1,27 @@
 package testpack;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
 public class BaseClass {
 	public void bubbleshortaparna() {
->>>>>>> 63db394b4b92bc4e6015386f71a846e44ddfc66a
-=======
-<<<<<<< HEAD
  import java.util.Scanner;
 public class BaseClass {
 	
-=======
-<<<<<<< HEAD
->>>>>>> e22c57f8598e6ef8eabfe9b2d119110a0e45f0f3
 import java.util.Scanner;
 
-=======
-<<<<<<< HEAD
+
 public class BaseClass {
 	
-=======
 import java.util.Scanner;
->>>>>>> 258574c7047f555760da566821fbb6c8febf8993
 
 
 
 
 
->>>>>>> 4e6d95ab6e161d28789be85c45d2ce49e5ec2030
+
+
 public class BaseClass 
     {
->>>>>>> 1ca742092d0ff897ffcffa2238ee79498578ffcd
+
 	
 	public void bubbleSortIbraheem()
 	{
@@ -48,6 +37,8 @@ public class BaseClass
 	{
 	
 		System.out.println("this is my base class");
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 
 		System.out.println("Base class");
@@ -66,6 +57,7 @@ public class BaseClass
 
 		BaseClass ob=new BaseClass();
 		ob.bubbleSort_Ramesh();
+>>>>>>> dbd96cf747f231e115d5e472d47cc43619163d44
 		
 <<<<<<< HEAD
 =======
@@ -130,59 +122,12 @@ public class BaseClass
 		int length=n.length();
 		System.out.println(length);
 		
->>>>>>> 4e6d95ab6e161d28789be85c45d2ce49e5ec2030
 	}
 	
 	
-	
-	
-	
-	public void bubbleSort_Ramesh()
-	{
-		
-       Scanner sc=new Scanner(System.in);
-		
-		System.out.println("enter the array length");
-		
-		int len=sc.nextInt();
-		
-		int a[]=new int[len];
-		
-		for(int i=0;i<len;i++)
-		{
-			a[i]=sc.nextInt();
-		}
-		
-		
-		for(int i=0;i<len;i++)
-		{
-			for(int j=i+1;j<len;j++)
-			{
-				if(a[i]>a[j])
-				{
-					int temp=a[i];
-					a[i]=a[j];
-					a[j]=temp;
-					
-				}
-			}
-		}
-					
-	
-		System.out.println("ascending order");		
-		 for(int i=0;i<len;i++)
-		 {
-			 System.out.println(a[i]);
-		 }
-		
-
-	}
 
 	
 
-<<<<<<< HEAD
-	
-=======
 
 
 public void BubblesortPalanivelrajn()
@@ -345,14 +290,9 @@ public void class bubblesortSethu {
 		    for (c = 0; c < n; c++)
 		      System.out.println(array[c]);
 		  
-<<<<<<< HEAD
-
-	
-=======
 	}
->>>>>>> e22c57f8598e6ef8eabfe9b2d119110a0e45f0f3
+
 	public void bubblesortinduja() {
->>>>>>> e22c57f8598e6ef8eabfe9b2d119110a0e45f0f3
 		int a[]= {4,9,5,9,1};
 		int t;
 		for (int i=0;i<4;i++);
@@ -371,7 +311,6 @@ public void class bubblesortSethu {
 			
 			
 		}
-<<<<<<< HEAD
 
 		for(int k=0;k<4;k++) {
 			System.out.println(k);
@@ -384,24 +323,13 @@ public void class bubblesortSethu {
 	}
 
 }
-=======
+
 		for(int k=0;k<4;k++)
 		{
 			System.out.println(a[k]);
 		}
-<<<<<<< HEAD
-====
->>>>>>> 4e6d95ab6e161d28789be85c45d2ce49e5ec2030
 
 
-
-
-
-	
-
-
-
-}
 
 public void Eveninduja() {
 	int a=10;
@@ -411,9 +339,7 @@ public void Eveninduja() {
 			System.out.println(c);
 		}
 	}
-<<<<<<< HEAD
 
-=======
 public void bubbleshortaparna()
 {
 
@@ -438,7 +364,7 @@ public void bubbleshortaparna()
 	}
  }
 }
->>>>>>> 63db394b4b92bc4e6015386f71a846e44ddfc66a
+
 public void bubbleSortByDeepika(){
 	
 	int a[]={3,4,-3,78,4454,6676};
@@ -457,4 +383,45 @@ public void bubbleSortByDeepika(){
 				System.out.println(a[k]);
 			}
 		}
+	}
+	
+	public void bubbleSort_Ram()
+	{
+		
+       Scanner sc=new Scanner(System.in);
+		
+		System.out.println("enter the array length");
+		
+		int len=sc.nextInt();
+		
+		int a[]=new int[len];
+		
+		for(int i=0;i<len;i++)
+		{
+			a[i]=sc.nextInt();
+		}
+		
+		
+		for(int i=0;i<len;i++)
+		{
+			for(int j=i+1;j<len;j++)
+			{
+				if(a[i]>a[j])
+				{
+					int temp=a[i];
+					a[i]=a[j];
+					a[j]=temp;
+					
+				}
+			}
+		}
+					
+	
+		System.out.println("ascending order");		
+		 for(int i=0;i<len;i++)
+		 {
+			 System.out.println(a[i]);
+		 }
+		
+
 	}
