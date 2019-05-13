@@ -1,8 +1,12 @@
 package testpack;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
 public class BaseClass {
 	public void bubbleshortaparna() {
+>>>>>>> 63db394b4b92bc4e6015386f71a846e44ddfc66a
 =======
 <<<<<<< HEAD
  import java.util.Scanner;
@@ -10,6 +14,7 @@ public class BaseClass {
 	
 =======
 <<<<<<< HEAD
+>>>>>>> e22c57f8598e6ef8eabfe9b2d119110a0e45f0f3
 import java.util.Scanner;
 
 =======
@@ -340,7 +345,12 @@ public void class bubblesortSethu {
 		    for (c = 0; c < n; c++)
 		      System.out.println(array[c]);
 		  
+<<<<<<< HEAD
+
+	
+=======
 	}
+>>>>>>> e22c57f8598e6ef8eabfe9b2d119110a0e45f0f3
 	public void bubblesortinduja() {
 >>>>>>> e22c57f8598e6ef8eabfe9b2d119110a0e45f0f3
 		int a[]= {4,9,5,9,1};
@@ -379,6 +389,17 @@ public void class bubblesortSethu {
 		{
 			System.out.println(a[k]);
 		}
+<<<<<<< HEAD
+====
+>>>>>>> 4e6d95ab6e161d28789be85c45d2ce49e5ec2030
+
+
+
+
+
+	
+
+
 
 }
 
@@ -390,6 +411,9 @@ public void Eveninduja() {
 			System.out.println(c);
 		}
 	}
+<<<<<<< HEAD
+
+=======
 public void bubbleshortaparna()
 {
 
@@ -414,3 +438,23 @@ public void bubbleshortaparna()
 	}
  }
 }
+>>>>>>> 63db394b4b92bc4e6015386f71a846e44ddfc66a
+public void bubbleSortByDeepika(){
+	
+	int a[]={3,4,-3,78,4454,6676};
+	
+	for(int i=0;i<5;i++){
+		for(int j=0;j<5,j++)
+		{
+			if(a[j]>a[j+1])
+			{
+				temp=a[i];
+				a[j]=a[i];
+				a[i]=temp;
+				
+			}
+			for(int k=0;k<5;k++){
+				System.out.println(a[k]);
+			}
+		}
+	}
