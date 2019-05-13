@@ -17,6 +17,11 @@ public static class StringPalindrome {
 		checkPalindrome("madam");
 		checkPalindrome("india");
 		checkPalindrome("amma");
+<<<<<<< HEAD
 		
+=======
+		checkPalindrome("set");
+				
+>>>>>>> 4e6d95ab6e161d28789be85c45d2ce49e5ec2030
 }
 }}
