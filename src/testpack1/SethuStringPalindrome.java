@@ -1,6 +1,8 @@
 package testpack1;
 
-public class StringPalindrome {
+
+public class SethuStringPalindrome {
+public static class StringPalindrome {
 	public static void checkPalindrome(String s) {
 		String reverse=new StringBuffer(s).reverse().toString();
 		if (s.equals(reverse)) {
@@ -15,8 +17,7 @@ public class StringPalindrome {
 		checkPalindrome("madam");
 		checkPalindrome("india");
 		checkPalindrome("amma");
-		
-
-	}
-
+		checkPalindrome("set");
+				
 }
+}}
