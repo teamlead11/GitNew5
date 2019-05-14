@@ -19,15 +19,6 @@ public class BaseClass
 	{
 	
 		System.out.println("this is my base class");
-<<<<<<< HEAD
-	
-	String n="NIRESH";
-	int length= n.length();
-	System.out.println(length);
-
-	int size=n.indexOf(n);
-	System.out.println(n);
-=======
 
 		BaseClass ob=new BaseClass();
 		ob.bubbleSort_Ramesh();
@@ -75,26 +66,8 @@ public class BaseClass
 		 {
 			 System.out.println(a[i]);
 		 }
-		
-
-	}
+	}}	
 
 	
->>>>>>> 6ac26f68f7fccd0d70cc5e258ff50fd9b6dab755
 
 	
-}
-<<<<<<< HEAD
-	public static void bubbleSortNiresh()  {
-		String n="NIRESH";
-		int length=n.length();
-		System.out.println(length);
-		
-	}
-}
-=======
-
-
-
-
->>>>>>> 6ac26f68f7fccd0d70cc5e258ff50fd9b6dab755
