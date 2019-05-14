@@ -2,7 +2,7 @@ package testpack;
 
 public class BaseClass {
 
-	static void bubbleSort(int[] arr) {  
+	static void bubbleSortbhuvanesh(int[] arr) {  
         int n = arr.length;  
         int temp = 0;  
          for(int i=0; i < n; i++){  
@@ -27,7 +27,7 @@ public class BaseClass {
                 }  
                 System.out.println();  
                   
-                bubbleSort(arr);//sorting array elements using bubble sort  
+                bubbleSortbhuvanesh(arr);  
                  
                 System.out.println("Array After Bubble Sort");  
                 for(int i=0; i < arr.length; i++){  
