@@ -29,9 +29,7 @@ public class BaseClass {
                   
                 bubbleSortbhuvanesh(arr);  
                  
-                System.out.println("Array After Bubble Sort");  
-                for(int i=0; i < arr.length; i++){  
-                        System.out.print(arr[i] + " ");  
+                  added 
                 }  
    
         }  
