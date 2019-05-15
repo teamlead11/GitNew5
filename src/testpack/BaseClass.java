@@ -425,3 +425,22 @@ public void bubbleSortByDeepika(){
 		
 
 	}
+	public void bubbleSortBySuganya(){
+		
+		int a[]={4,22,-7,77,0422,3456};
+		
+		for(int i=0;i<5;i++){
+			for(int j=0;j<5,j++)
+			{
+				if(a[j]>a[j+1])
+				{
+					temp=a[i];
+					a[j]=a[i];
+					a[i]=temp;
+					
+				}
+				for(int k=0;k<5;k++){
+					System.out.println(a[k]);
+				}
+			}
+		}
