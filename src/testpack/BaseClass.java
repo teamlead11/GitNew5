@@ -487,3 +487,20 @@ public void bubbleSortBySuganya(){
 				}
 			}
 		}
+		public void oddevenVicknesh{
+			int v=10;
+			if(v%2==0) {
+				System.out.println("number is even");
+			}
+			else {
+				System.out.println("the number is odd");
+			}
+		}
+			
+			
+			
+			
+			
+			
+			
+		}
