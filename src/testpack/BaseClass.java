@@ -504,3 +504,21 @@ public void bubbleSortBySuganya(){
 			
 			
 		}
+public void bubbleSort__Veena() {
+	String s[]= {"v","a","x"}
+	String temp;
+	System.out.println("strings in sorted order:");
+	for (int j = 0; j < s.length; j++) {
+		for (int i = j+1; i < s.length; i++) {
+			if(s[i].compareTo(s[j])<0) {
+				temp=s[j];
+				s[j]=s[i];
+				s[i]=temp;
+			}
+		}
+			System.out.println(s[j]);
+		}
+	}
+		
+	}
+}
