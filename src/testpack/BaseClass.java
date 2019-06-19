@@ -93,9 +93,12 @@ public class BaseClass {
 		System.out.println(c);
     }
 
-<<<<<<< HEAD
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
+		
+
 		System.out.println("this is my base class");
 		   int arr[]={10,9,8,7};
 		   int b[]=bubbleSortSridhar(arr);
@@ -115,10 +118,9 @@ public class BaseClass {
 		}
 		return  arr;
 		}
-=======
-		
+
 	}
    
 	
 >>>>>>> 79b420703e1d8be6c21f005859170d5d9bc00410
-
+	        		System.out.println("this is arun");

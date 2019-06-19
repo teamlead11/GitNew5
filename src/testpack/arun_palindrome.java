@@ -7,7 +7,8 @@ public class arun_palindrome {
 		String str, rev = "";
 	      @SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
-	     
+	      
+	     System.out.println("Verify the palindrome");
 	      System.out.println("Enter a string:");
 	      str = scan.nextLine();
 	 
